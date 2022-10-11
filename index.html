@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <script type="module" src="document-load.js"></script>
+    </head>
+    <body>
+        <h1>Test</h1>
+        <script type="text/javascript">
+            window.onload = function() {
+                fetchText();
+            }
+            async function fetchText() {
+                let response = await fetch('/assets/readme.txt');
+                let data = await response.text();
+                console.log(data);
+            }
+
+        </script>
+    </body>
+</html>
