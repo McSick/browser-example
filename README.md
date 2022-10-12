@@ -1,4 +1,4 @@
-# browser-example
+# browser opentelemetry example
 
 ## Requirements
 
