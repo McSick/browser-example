@@ -18,6 +18,6 @@ Run the start script to build the javascript and serve up a simple http server o
 ./start.sh
 ```
 
-Navigate to [http://localhost:8080/index.html](http://localhost:8080/index.html) while the server is running.  
+Navigate to [http://localhost:8080](http://localhost:8080) while the server is running.  
 
 The webpage loads a readme.txt file from the assets director using a simple fetch request.  
